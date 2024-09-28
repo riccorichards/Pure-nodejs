@@ -1,0 +1,28 @@
+{
+  "name": "riccoblog",
+  "version": "1.0.0",
+  "description": "Hey there, in this small application i want to show you guyshow can nodejs work without any framework, also in this blog web site you will see several blogs about nodejs, blockchain and trading.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "build": "tsc -p .",
+    "start": "node ./scr/index.ts"
+  },
+  "author": "RiccoRichards",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.7.4",
+    "glob": "^11.0.0",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "lru-cache": "^11.0.1",
+    "mongoose": "^8.7.0"
+  }
+}
