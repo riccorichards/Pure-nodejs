@@ -2,9 +2,9 @@
   "name": "riccoblog",
   "version": "1.0.0",
   "description": "Hey there, in this small application i want to show you guyshow can nodejs work without any framework, also in this blog web site you will see several blogs about nodejs, blockchain and trading.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/crudPureNode/main.ts",
     "build": "tsc -p .",
     "start": "node ./scr/index.ts"
   },

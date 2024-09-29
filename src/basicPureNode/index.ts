@@ -26,11 +26,10 @@ createServer(function (req, res) {
         res.writeHead(200, { "Content-Type": "text/html" });
         res.end(data);
       });
-
       break;
     default:
       if (url?.includes("/images")) {
-        let filePath = path.join(__dirname, "images", "nicolas.webp");
+        let filePath = path.join(__dirname, "public", "images", "nicolas.webp");
 
         readFile(filePath, (err, img) => {
           if (err) {
