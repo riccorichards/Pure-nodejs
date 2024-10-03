@@ -4,7 +4,7 @@
   "description": "Hey there, in this small application i want to show you guyshow can nodejs work without any framework, also in this blog web site you will see several blogs about nodejs, blockchain and trading.",
   "main": "main.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only ./src/crudPureNode/main.ts",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/blog/main.ts",
     "build": "tsc -p .",
     "start": "node ./scr/index.ts"
   },

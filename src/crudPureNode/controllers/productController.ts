@@ -27,6 +27,7 @@ export const getProducts = async (
   }
 };
 
+// work with paras 
 export const getProduct = async (req: IncomingMessage, res: ServerResponse) => {
   try {
     const productId = req.url?.split("/")[req.url.split.length + 1];
@@ -43,6 +44,7 @@ export const getProduct = async (req: IncomingMessage, res: ServerResponse) => {
   }
 };
 
+// work with body -> streaming
 export const createProduct = async (
   req: IncomingMessage,
   res: ServerResponse
@@ -76,6 +78,7 @@ export const createProduct = async (
   }
 };
 
+// work with query
 export const filterProductS = async (
   req: IncomingMessage,
   res: ServerResponse

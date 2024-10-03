@@ -1,6 +1,6 @@
 import { createServer } from "http";
 import { readFile } from "fs";
-import path, { join } from "path";
+import path from "path";
 
 createServer(function (req, res) {
   const url = req.url;
